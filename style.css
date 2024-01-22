@@ -382,6 +382,7 @@ span{
   margin-top: 5rem;
   position: center;
   border-radius: 30px;
+  border: 2px solid var(--main-color);
 }
 
 .about-content .btn-box.btns {
@@ -442,11 +443,11 @@ span{
     }
   
     41%, 60%{
-      content: "Beginner Software Eng.";
+      content: "Chess Enthusiast";
     }
   
     61%, 80%{
-      content: "Enthusiastic Learner";
+      content: "Basketball Fan ";
     }
   
     81%, 100%{
