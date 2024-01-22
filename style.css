@@ -300,10 +300,7 @@ section{
   transition: 3s;
 }
 
-.home-imgHover:hover{
-  background: var(--bg-color);
-  opacity: .8;
-}
+
 
 /*--------------------------------------about----------------------------------------*/
 
@@ -375,8 +372,16 @@ span{
 
 .about-content p{
   position: relative;
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+  font-size: 1.6rem;
+  margin: 3%;
+}
+
+.about-content .about-text{
+  border: 1px solid var(--bg-color);
+  background-color: var(--bg-color);
+  margin-top: 5rem;
+  position: center;
+  border-radius: 30px;
 }
 
 .about-content .btn-box.btns {
@@ -654,43 +659,43 @@ span{
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width: 40%;
+    width: 100%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width: 40%;
+    width: 100%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 65%;
+    width: 100%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
-    width: 50%;
+    width: 100%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
-    width: 30%;
+    width: 100%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
-    width: 50%;
+    width: 100%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
-    width: 45%;
+    width: 100%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 65%;
+    width: 100%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
-    width: 70%;
+    width: 100%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span{
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -1219,6 +1224,10 @@ span{
 
 section:nth-child(odd) .animate.scroll, .footer .animate.scroll{
   background: var(--second-bg-color);
+}
+
+section:nth-child(odd) .animate.scroll.text{
+  background-color: var(--bg-color);
 }
 
 .education .education-box .animate.scroll{
