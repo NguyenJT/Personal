@@ -389,6 +389,10 @@ span{
   width: 16rem;
 }
 
+.about-content .about-text:hover{
+  scale: 1.01;
+}
+
 
 .btn-box.btns{
   position: relative;
@@ -926,13 +930,12 @@ span{
 
 .course-overlapping{
   position: relative;
-  height: 55em;
-  width: 110%;
+  height: 55rem;
+  width: 105%;
   margin-top: -54em;
   z-index: 100;
   background: transparent;
   pointer-events: none;
-  left: -5%;
 
 }
 
@@ -944,65 +947,49 @@ span{
   left: 50%;
   transform: translateX(-50%);
 }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6%;
+  margin-bottom: 8%;
+}
+
+
+.contact-info{
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.contact-info .contact-info2{
+  position: relative;
+  font-size: 4rem;
+  color: var(--main-color);
+
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: var(--second-bg-color);
+  padding: 15px;
+  margin: 15px;
+  color: var(--text-color);
+  font-size: 20px;
+  border-radius: 8px;
+}
  
-  .contact_us_green .responsive-container-block {
-    min-height: 75px;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 0 auto 60px auto;
-    
-  }
   
-  .contact_us_green input:focus {
-    outline-color: initial;
-    outline-style: none;
-    outline-width: initial;
-  }
   
-  .contact_us_green textarea:focus {
-    outline-color: initial;
-    outline-style: none;
-    outline-width: initial;
-  }
-  
-  .contact_us_green .text-blk {
-    line-height: 25px;
-  }
-  
-  .contact_us_green .responsive-cell-block {
-    min-height: 75px;
-  }
-  
-  .contact_us_green .responsive-container-block.container {
-    max-width: 1320px;
-    margin: 60px auto 60px auto;
-  }
-  
-  .contact_us_green .responsive-container-block.big-container {
-    padding: 0 50px 0 50px;
-  
-  }
-  
-  .contact_us_green .text-blk.contactus-head {
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    
-  }
-  
-  .contact_us_green .text-blk.contactus-subhead {
-    max-width: 385px;
-    color: #939393;
-    font-size: 18px;
-    margin-bottom:50px;
-   
-  }
-  
-  .contact_us_green .contact-svg {
+  .contact-svg {
     padding-right: 25px;
     width: 65px;
     height: 40px;
@@ -1013,50 +1000,38 @@ span{
 
   }
   
-  .contact_us_green .home-sci{
+  .contact-left .home-sci{
     width: 250px;
     display: flex;
     justify-content: space-around;
     position: relative;
     left: -2%;
     margin-top: 10em;
+    margin-left: 1%;
   }
   
-  .contact_us_green .social-svg {
+  .social-svg {
     width: 35px;
     height: 35px;
   }
   
-  .contact_us_green .text-box {
+ .text-box {
     display: flex;
     margin-bottom: 50px;
   }
   
-  .contact_us_green .contact-text {
+  .contact-text {
     color: var(--text-color);
+    margin-top: 6%;
+    font-weight: bold;
+    font-size: medium;
+    position: relative;
   }
   
-  .contact_us_green .input {
-    height: 50px;
-    width: 90%;
-    border: 2.5px solid #a2a2a2;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 5px 15px 5px 15px;
-  }
+ 
   
-  .contact_us_green .textinput {
-    height: 200px;
-    width: 95%;
-    border: 2px solid #a2a2a2;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 20px 30px 20px 20px;
-  
-  }
-  
-  .contact_us_green .submit-btn {
-    min-width: 290px;
+  .submit-btn {
+    min-width: 260px;
     height: 60px;
     background-color: var(--main-color);
     font-size: 18px;
@@ -1064,8 +1039,10 @@ span{
     color: var(--bg-color);
     border-width: 2px;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 2.5rem 1.5rem;
     cursor: pointer;
+    display: inline-block;
+    padding: 14px 60px;
   }
 
   .submit-btn:hover{
@@ -1073,57 +1050,37 @@ span{
   }
 
   
-  .contact_us_green .btn-wrapper {
+  .btn-wrapper {
     display: flex;
     justify-content: center;
   }
   
-  .contact_us_green .text-blk.input-title {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px;
-    margin-bottom: 15px;
-  }
-  
-  .contact_us_green .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
-    margin-bottom: 30px;
-  }
-  
-  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
-    padding-left: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact_us_green .head-text-box {
-    display: none;
-  }
-  
-  .contact_us_green .line {
-    border-right-width: 1.8px;
-    border-right-style: solid;
-    border-right-color: #a2a2a2;
-  }
-  
-  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-7.wk-ipadp-10.line {
-    padding-right: 20px;
-  }
+
 
   .overlapper-one{
     position: relative;
     height: 110%;
-    top: -65em;
+    z-index: 10;
+    pointer-events: none;
+    background: transparent;
+    top: -90%;
+  }
+
+  .overlapper-two{
+    width: 120%;
+    height: 80%;
+    top: -100%;
+    left: -7em;
+    position: relative;
     z-index: 10;
     pointer-events: none;
     background: transparent;
   }
 
-  .overlapper-two{
-    width: 120%;
-    height: 110%;
-    top: -60em;
-    left: -7em;
+  .overlapper-three{
+    width: 50%;
+    height: 20%;
+    top: -100%;
     position: relative;
     z-index: 10;
     pointer-events: none;
